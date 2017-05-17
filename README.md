@@ -1,2 +1,2 @@
 # assembler
-basic assebler in C.
+basic assembler in C.
