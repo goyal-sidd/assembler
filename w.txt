@@ -1,0 +1,7 @@
+L0:
+ADD R0 #8
+ALA #15 #20
+JNE $L0
+HALT
+PASS @R1
+CALC @R2 #7 R5

@@ -1,0 +1,9 @@
+PASS #14
+SALA #6 #10
+MOV #5 R1
+CONN R1
+lable1:
+NOTI
+CMP #6 R1
+MOV #6 R1
+JNE $label1

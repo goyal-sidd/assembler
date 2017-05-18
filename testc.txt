@@ -1,0 +1,15 @@
+PASS #13
+ALA #6 #10
+STCO #10
+l0:
+HBT
+CALE
+MOV #5 R1
+CMP #5 R1
+JLT $l0
+NOTI
+MOV #1 R2
+l1:
+CMP R2 #4
+MOV #4 R2
+JNE $l1
